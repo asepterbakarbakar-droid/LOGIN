@@ -15,7 +15,7 @@ export default function Home() {
         {/* Video Background */}
         <div className="video-background">
           <video autoPlay muted loop playsInline>
-            <source src="/videospurple-knight.3840x2160.mp4" type="video/mp4" />
+            <source src="/videos/purple-knight.3840x2160.mp4" type="video/mp4" />
             <source src="/videos/background.webm" type="video/webm" />
             Your browser does not support the video tag.
           </video>
@@ -28,3 +28,4 @@ export default function Home() {
     </>
   )
 }
+
